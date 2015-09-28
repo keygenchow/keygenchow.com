@@ -1,0 +1,449 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.flash-background {
+    -moz-animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -moz-animation-name: flash-background;
+    -webkit-animation-name: flash-background;
+    animation-name: flash-background;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-moz-keyframes flash-background {
+    from {
+        background-color:#FF6F6F;
+    }
+    10% {
+        background-color: #FF6FB8;
+    }
+    20% {
+        background-color: #FF6FE7;
+    }
+    30% {
+        background-color: #CE6FFF;
+    }
+    40% {
+        background-color: #716FFF;
+    }
+    50% {
+        background-color: #6FEBFF;
+    }
+    60% {
+        background-color: #6FFFC3;
+    }
+    70% {
+        background-color: #85FF6F;
+    }
+    80% {
+        background-color: #E2FF6F;
+    }
+    90% {
+        background-color: #FFE06F;
+    }
+    to {
+       background-color:#FF8A6F;
+    }
+}
+
+@-webkit-keyframes flash-background {
+    from {
+        background-color:#FF6F6F;
+    }
+    10% {
+        background-color: #FF6FB8;
+    }
+    20% {
+        background-color: #FF6FE7;
+    }
+    30% {
+        background-color: #CE6FFF;
+    }
+    40% {
+        background-color: #716FFF;
+    }
+    50% {
+        background-color: #6FEBFF;
+    }
+    60% {
+        background-color: #6FFFC3;
+    }
+    70% {
+        background-color: #85FF6F;
+    }
+    80% {
+        background-color: #E2FF6F;
+    }
+    90% {
+        background-color: #FFE06F;
+    }
+    to {
+       background-color:#FF8A6F;
+    }
+}
+
+@keyframes flash-background {
+    from {
+        background-color:#FF6F6F;
+    }
+    10% {
+        background-color: #FF6FB8;
+    }
+    20% {
+        background-color: #FF6FE7;
+    }
+    30% {
+        background-color: #CE6FFF;
+    }
+    40% {
+        background-color: #716FFF;
+    }
+    50% {
+        background-color: #6FEBFF;
+    }
+    60% {
+        background-color: #6FFFC3;
+    }
+    70% {
+        background-color: #85FF6F;
+    }
+    80% {
+        background-color: #E2FF6F;
+    }
+    90% {
+        background-color: #FFE06F;
+    }
+    to {
+       background-color:#FF8A6F;
+    }
+}
+
+.flash-image {
+    -moz-animation-duration: 6s;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -moz-animation-name: flash-image;
+    -webkit-animation-name: flash-image;
+    animation-name: flash-image;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-moz-keyframes flash-image {
+    from {
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    10% {
+        filter: hue-rotate(30deg);
+        -webkit-filter: hue-rotate(30deg);
+    }
+    20% {
+        filter: hue-rotate(60deg);
+        -webkit-filter: hue-rotate(60deg);
+    }
+    30% {
+        filter: hue-rotate(90deg);
+        -webkit-filter: hue-rotate(90deg);
+    }
+    40% {
+        filter: hue-rotate(120deg);
+        -webkit-filter: hue-rotate(120deg);
+    }
+    50% {
+        filter: hue-rotate(150deg);
+        -webkit-filter: hue-rotate(150deg);
+    }
+    60% {
+        filter: hue-rotate(180deg);
+        -webkit-filter: hue-rotate(180deg);
+    }
+    70% {
+        filter: hue-rotate(210deg);
+        -webkit-filter: hue-rotate(210deg);
+    }
+    80% {
+        filter: hue-rotate(240deg);
+        -webkit-filter: hue-rotate(240deg);
+    }
+    90% {
+        filter: hue-rotate(270deg);
+        -webkit-filter: hue-rotate(270deg);
+    }
+    to {
+        filter: hue-rotate(300deg);
+        -webkit-filter: hue-rotate(300deg);
+    }
+}
+
+@-webkit-keyframes flash-image {
+    from {
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    10% {
+        filter: hue-rotate(30deg);
+        -webkit-filter: hue-rotate(30deg);
+    }
+    20% {
+        filter: hue-rotate(60deg);
+        -webkit-filter: hue-rotate(60deg);
+    }
+    30% {
+        filter: hue-rotate(90deg);
+        -webkit-filter: hue-rotate(90deg);
+    }
+    40% {
+        filter: hue-rotate(120deg);
+        -webkit-filter: hue-rotate(120deg);
+    }
+    50% {
+        filter: hue-rotate(150deg);
+        -webkit-filter: hue-rotate(150deg);
+    }
+    60% {
+        filter: hue-rotate(180deg);
+        -webkit-filter: hue-rotate(180deg);
+    }
+    70% {
+        filter: hue-rotate(210deg);
+        -webkit-filter: hue-rotate(210deg);
+    }
+    80% {
+        filter: hue-rotate(240deg);
+        -webkit-filter: hue-rotate(240deg);
+    }
+    90% {
+        filter: hue-rotate(270deg);
+        -webkit-filter: hue-rotate(270deg);
+    }
+    to {
+        filter: hue-rotate(300deg);
+        -webkit-filter: hue-rotate(300deg);
+    }
+}
+
+@keyframes flash-image {
+    from {
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    10% {
+        filter: hue-rotate(30deg);
+        -webkit-filter: hue-rotate(30deg);
+    }
+    20% {
+        filter: hue-rotate(60deg);
+        -webkit-filter: hue-rotate(60deg);
+    }
+    30% {
+        filter: hue-rotate(90deg);
+        -webkit-filter: hue-rotate(90deg);
+    }
+    40% {
+        filter: hue-rotate(120deg);
+        -webkit-filter: hue-rotate(120deg);
+    }
+    50% {
+        filter: hue-rotate(150deg);
+        -webkit-filter: hue-rotate(150deg);
+    }
+    60% {
+        filter: hue-rotate(180deg);
+        -webkit-filter: hue-rotate(180deg);
+    }
+    70% {
+        filter: hue-rotate(210deg);
+        -webkit-filter: hue-rotate(210deg);
+    }
+    80% {
+        filter: hue-rotate(240deg);
+        -webkit-filter: hue-rotate(240deg);
+    }
+    90% {
+        filter: hue-rotate(270deg);
+        -webkit-filter: hue-rotate(270deg);
+    }
+    to {
+        filter: hue-rotate(300deg);
+        -webkit-filter: hue-rotate(300deg);
+    }
+}
